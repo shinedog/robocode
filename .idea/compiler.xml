@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.api" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.api" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.battle" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.battle" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.content" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.content" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.core" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.distribution" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.distribution" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.host" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.host" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.installer" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.installer" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.repository" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.repository" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.roborumble" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.roborumble" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.samples" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.samples" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.sound" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.sound" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.tests" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.tests" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.tests.robots" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.tests.robots" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.ui" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.ui" />
+      </profile>
+      <profile default="false" name="Annotation profile for robocode.ui.editor" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="robocode.ui.editor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="robocode" target="1.6" />
+      <module name="robocode.api" target="1.6" />
+      <module name="robocode.battle" target="1.6" />
+      <module name="robocode.content" target="1.6" />
+      <module name="robocode.core" target="1.6" />
+      <module name="robocode.distribution" target="1.6" />
+      <module name="robocode.host" target="1.6" />
+      <module name="robocode.installer" target="1.6" />
+      <module name="robocode.repository" target="1.6" />
+      <module name="robocode.roborumble" target="1.6" />
+      <module name="robocode.samples" target="1.6" />
+      <module name="robocode.sound" target="1.6" />
+      <module name="robocode.tests" target="1.6" />
+      <module name="robocode.tests.robots" target="1.6" />
+      <module name="robocode.ui" target="1.6" />
+      <module name="robocode.ui.editor" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
